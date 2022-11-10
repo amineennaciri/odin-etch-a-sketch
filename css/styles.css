@@ -7,9 +7,14 @@
     max-width: 100vw;
     margin: 0;
 } 
-
+button{
+    height: 2%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: small;
+}
 .container{
-    height: 100%;
+    height: 98%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

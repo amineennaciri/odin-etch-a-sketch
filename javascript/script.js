@@ -1,3 +1,12 @@
+// setting up the button logic
+const btn = document.querySelector('button')
+let result = btn.addEventListener('click',gridNum)
+function gridNum(){
+    let boxNum = prompt('Enter the number of squares per side for the new grid.')
+    console.log(boxNum)
+}
+
+
 // creating the 16x16 boxes with javascript
 const container = document.getElementsByClassName('container');
 for(let i=1; i<= 256;i++){
