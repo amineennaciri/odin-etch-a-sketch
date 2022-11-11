@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
  body {
     height: 100vh;
@@ -12,10 +12,15 @@ button{
     width: 100%;
     font-weight: bolder;
     font-size: small;
+    border: 1px solid red;
 }
 .container{
     height: 98%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    position:fixed;
+}
+.container * {
+    border: 1px solid red;
 }
