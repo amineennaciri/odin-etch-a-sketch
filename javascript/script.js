@@ -42,7 +42,7 @@ function gridNum(){
 }
 
 function hovering(e){
-    e.target.style.backgroundColor = 'red'
+    e.target.style.backgroundColor = 'black'
 }
 
 function unHovering(e){
